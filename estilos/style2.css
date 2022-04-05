@@ -1,0 +1,48 @@
+#submit:hover{
+    background-color: rgb(10, 161, 10);
+}
+
+@media screen and (max-width: 851px){
+    form{
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+        height: fit-content;
+        margin-bottom: 15px;
+    }
+
+    main{
+        margin: 0 auto;
+        text-align: center;
+        padding: 25px;
+    }
+
+   .bloc{
+    flex-direction: column;
+    height:max-content;
+    
+   } 
+
+   .formField{
+    margin-bottom: 15px;
+}
+   #submit{
+        margin: 0 auto;
+        padding: 15px;   
+   }
+
+   .formField input{
+    width: 50vw;
+    }
+  
+}
+
+@media screen and (max-width: 470px){
+    .formField input{
+    width: 60vw;
+    }
+
+    #submit{
+        width: 55vw;
+    }
+}

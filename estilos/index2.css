@@ -1,0 +1,54 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(38, 168, 38);
+    transition: 0.3s;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(/estilos/img_bg_backoffice_usuario.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 5%;
+   
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+nav{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+main{
+    flex: 1;
+}
