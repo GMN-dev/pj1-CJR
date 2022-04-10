@@ -26,7 +26,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 55vh;
+    height: 50vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -51,4 +51,94 @@ nav{
 
 main{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-top-main{
+    background-color: rgb(63, 63, 63);
+}
+
+.top-main{
+    max-width: 50vw;
+    min-width: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=- */
+.container-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+thead{
+    background-color: rgba(190, 193, 238, 0.486);
+    width: 70vw;
+}
+
+#table-data{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+tbody{
+    width: 70vw;
+}
+
+.data-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+td button{
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+}
+#btts{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#editar{
+    background-color: rgba(243, 205, 34, 0.795);
+}
+#excluir{
+    background-color: rgba(255, 0, 0, 0.699);
+}
+
+.container-control{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container-control button{
+    padding: 5px;
+    border-radius: 4px;
+}
+/* =-=-=-=-=-=-=-=-=-=-===-=-=-=-=-=-=-=-=- */
+
+footer{
+    background-color: rgba(128, 128, 128, 0.315);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between
 }

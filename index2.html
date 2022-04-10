@@ -12,28 +12,60 @@
         <div class="top-header">
             <h3>DinnerDash</h3>
             <nav>
-                <h3><a href="$">Backoffice</a></h3>
-                <h3>perfil</h3>
-                <h3>sair</h3>
+                <h3><a href="/index2.html">Backoffice</a></h3>
+                <h3><a href="/index.html">perfil</a></h3>
+                <h3><a href="">sair</a></h3>
             </nav>
         </div>
         <div class="main-header">
             <h1>Backoffice</h1>
             <p>Gerencie pedidos, relações e mais</p>
         </div>
-        
     </header>
-
     <main>
-        <div class="bot-header">
-            <p>Pedido</p>
-            <p>Usuarios</p>
-            <p>Refeições</p>
-            <p>Categorias de refeição</p>
+        <div class="container-top-main">
+            <div class="top-main">
+                <p>Pedido</p>
+                <p>Usuarios</p>
+                <p>Refeições</p>
+                <p>Categorias de refeição</p>
+            </div>
+        </div>
+        <div class="container-content">
+            <div class="container-data">
+                <table>
+                    <thead>
+                        <tr id="table-data">
+                            <th>Nome</th>
+                            <th>Email</th>
+                            <th>Cadastrado em</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        <!-- <tr class="data-row">
+                            <td>Gabriel Magalhaes</td>
+                            <td>g.magalhaes1509@gmail.com</td>
+                            <td>15/09//2022</td>
+                            <td id="btts"><button id="editar">editar</button><button id="excluir">excluir</button></td>
+                        </tr> -->
+                    </tbody>
+        
+                </table>
+
+                <div class="container-control">
+                    <button><<</button>
+                    <div class="npages"></div>
+                    <button>>></button>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-
+        <span><strong>DinnerDash</strong> | Todos os direitos reservados</span>
+        <span>Desenvolvido por Treinee legal</span>
     </footer>
+    <script src="/bd/data.js"></script>
+    <script src="/scripts/backoffice.js"></script>
+    
 </body>
 </html>
